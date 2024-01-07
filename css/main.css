@@ -1344,6 +1344,9 @@ border-bottom: 1px solid var(--grey-40);
   }
 }
 @media (max-width: 680px){
+  .ui-header-wrapper{
+    padding: 0 0.5rem;
+  }
 .review-item{
 flex-direction: column;
 }
