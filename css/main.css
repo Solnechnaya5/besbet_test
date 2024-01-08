@@ -557,6 +557,9 @@ padding: 10px 12px 11px 10px;
   line-height: 1.3125rem;
   color: var(--ref-color-link);
 }
+.product-page__compare-link2{
+  display: none;
+}
 .product-page__compare-link:hover{
   color: var(--ref-color-link-hover);
   text-decoration: underline;
@@ -1265,6 +1268,9 @@ margin: 0;
   .product-intro__clipboard{
     max-width: 1020px;
     align-self: flex-end;
+  }
+  .product-page__compare-link2{
+    display: block;
   }
   .product-page__compare-link2 button{
     display: flex;
