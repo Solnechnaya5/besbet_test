@@ -337,12 +337,12 @@
               </div>
               <div class="order-form__input">
                 <label for="phone">Numer telefonu:<span class="input-star">*</label>
-                <input type="tel" name="phone" id="phone" required>
+                <input type="tel" name="phone" id="phone" pattern="\d{8,}" placeholder="w formacie XXXXXXXXX" required>
                 <span class="input-error"></span>
               </div>
               <div class="order-form__input">
                 <label for="email">Adres e-mail:<span class="input-star">*</label>
-                <input type="email" name="email" id="email" required>
+                <input type="email" name="email" id="email" pattern="/^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/"  required>
                 <span class="input-error"></span>
               </div>
               <button class="order-form__btn">Zamów</button>
